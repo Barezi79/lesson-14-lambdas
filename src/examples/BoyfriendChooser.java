@@ -9,11 +9,11 @@ public class BoyfriendChooser {
 
 	public static void main(String[] args) {
 
-		Boy jason = new Boy("Jason", true, false);
-		Boy frank = new Boy("Frank", false, true);
-		Boy brian = new Boy("Professor Brian Cox", true, true);
+		Boy Jason = new Boy("Jason", true, false);
+		Boy Frank = new Boy("Frank", false, true);
+		Boy Brian = new Boy("Professor Brian Cox", true, true);
 		
-		List<Boy> boys = List.of(jason, frank, brian);
+		List<Boy> boys = List.of(Jason, Frank, Brian);
 		
 		Stream<Boy> streamOfBoys = boys.stream();
 		

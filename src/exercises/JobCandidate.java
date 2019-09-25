@@ -57,4 +57,8 @@ public class JobCandidate {
 		return salaryRequired;
 	}
 
+	public String getName() {
+		return name;
+	}
+
 }
